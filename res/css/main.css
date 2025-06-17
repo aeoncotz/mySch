@@ -254,6 +254,7 @@ body {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  padding: 2rem 1rem;
 }
 
 .what-our-parents-say .row {
