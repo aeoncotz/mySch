@@ -44,13 +44,17 @@ body {
 /* Buttons */
 .btn-red {
   background-color: #b22222;
-  border: none;
   color: white;
   font-weight: bold;
   padding: 0.6rem 1.5rem;
   border-radius: 2rem;
   width: 100%;
   max-width: 300px;
+  transition: all 0.3s ease;
+}
+
+.btn-red:hover {
+  border: 1px solid #b22222;
 }
 
 .btn-white {
@@ -61,6 +65,11 @@ body {
   border-radius: 2rem;
   width: 100%;
   max-width: 300px;
+  transition: all 0.3s ease;
+}
+
+.btn-white:hover {
+  border: 1px solid white;
 }
 
 /* Boxes */
@@ -210,7 +219,7 @@ body {
 /* welcome card */
 
 .welcome {
-  padding: 3rem 10%;
+  padding: 3rem 15%;
   background: #fff;
 }
 
@@ -263,7 +272,8 @@ body {
   width: 100%;
 }
 
-.what-our-parents-say .heading-text {
+.what-our-parents-say .heading-text,
+.container-activities .heading-text {
   margin: 0;
   text-align: center;
   padding-top: 3rem;
@@ -271,7 +281,7 @@ body {
 }
 
 .recent-acctivies {
-  padding: 1rem 10%;
+  padding: 1rem 15%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -282,30 +292,76 @@ body {
     padding: 1rem 18px;
   }
 }
+.container-activities {
+  padding: 3rem 0;
+  padding-top: 0;
+  text-align: center;
+  background: #ffff;
+}
 
 .recent-acctivies img {
   width: calc(100%);
   padding: 5px;
 }
 
+.recent-acctivies .activity-1 {
+  background: url(../imgs/activity-1.jpg);
+}
+
+.recent-acctivies .activity-2 {
+  background: url(../imgs/activity-2.jpg);
+}
+
+.recent-acctivies .activity-2 {
+  background: url(../imgs/activity-2.jpg);
+}
+
+.recent-acctivies .activity-3 {
+  background: url(../imgs/activity-3.jpg);
+}
+
+.recent-acctivies .activity-4 {
+  background: url(../imgs/activity-4.jpg);
+}
+
+.container-activities .heading-text {
+  color: #223c7d;
+}
+
 .recent-acctivies .img-bgroung {
   width: calc(100% / 4);
-  height: 100px;
+  aspect-ratio: 1/1;
   margin: 2px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.recent-acctivies .activity-1 {
-  background: url(../imgs/activity-1.jpg);
+.recent-acctivies .img-bgroung .sensety {
+  height: 100%;
+  width: 100%;
+  background: #ccc;
+  opacity: 0;
+  transition: all 0.3s ease;
 }
 
-.recent-acctivies .activity-2 {
-  background: url(../imgs/activity-2.jpg);
+.recent-acctivies .img-bgroung .sensety:hover {
+  opacity: 0.2;
 }
 
-.recent-acctivies .activity-2 {
-  background: url(../imgs/activity-2.jpg);
+p.color-blue {
+  color: #1e3265;
 }
 
-.recent-acctivies .activity-1 {
-  background: url(../imgs/activity-1.jpg);
+.date-of-birth input {
+  color: #1e3265;
+  background: none;
+  border-radius: 12px;
+  padding: 0 5px;
+  border: 1px #1e3265 solid;
+}
+
+.date-of-birth input:focus {
+  outline: none;
+  box-shadow: none;
 }
