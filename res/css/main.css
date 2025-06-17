@@ -191,3 +191,121 @@ body {
   font-weight: 900;
   font-style: italic;
 }
+
+/* navigation bar */
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* welcome card */
+
+.welcome {
+  padding: 3rem 10%;
+  background: #fff;
+}
+
+.welcome img {
+  width: 100%;
+}
+
+.welcome .p-red {
+  color: #b22222;
+}
+
+.welcome .p-blue {
+  color: #1e3265;
+}
+
+.welcome .p-red,
+.welcome .p-blue {
+  line-height: 1.5;
+  font-size: 1.3rem;
+  letter-spacing: 0.01em;
+}
+
+/* responsiveness welcome */
+@media (max-width: 576px) {
+  .welcome {
+    padding: 3rem 3%;
+  }
+}
+
+.welcome .description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.what-our-parents-say .row {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.what-our-parents-say .row .col-sm {
+  padding: 12px;
+}
+
+.what-our-parents-say .row img {
+  width: 100%;
+}
+
+.what-our-parents-say .heading-text {
+  margin: 0;
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 2.2rem;
+}
+
+.recent-acctivies {
+  padding: 1rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .recent-acctivies {
+    padding: 1rem 18px;
+  }
+}
+
+.recent-acctivies img {
+  width: calc(100%);
+  padding: 5px;
+}
+
+.recent-acctivies .img-bgroung {
+  width: calc(100% / 4);
+  height: 100px;
+  margin: 2px;
+}
+
+.recent-acctivies .activity-1 {
+  background: url(../imgs/activity-1.jpg);
+}
+
+.recent-acctivies .activity-2 {
+  background: url(../imgs/activity-2.jpg);
+}
+
+.recent-acctivies .activity-2 {
+  background: url(../imgs/activity-2.jpg);
+}
+
+.recent-acctivies .activity-1 {
+  background: url(../imgs/activity-1.jpg);
+}
