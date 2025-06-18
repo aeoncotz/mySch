@@ -1,3 +1,7 @@
+:root {
+  --accent-color: #b22222;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -19,12 +23,44 @@ body {
 
 .logo-subtext {
   font-size: 0.8rem;
-  color: #b22222;
+  color: var(--accent-color);
   letter-spacing: 1px;
   line-height: 1;
 }
 
+.visual-header {
+  height: 3rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 16/7;
+  background: url(../imgs/background.jpg);
+  background-position: center -4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: auto;
+  opacity: 0;
+  animation: fadeInBg 2s ease-in-out forwards;
+}
+
+@keyframes fadeInBg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @media (max-width: 576px) {
+  .hero {
+    aspect-ratio: 16/11;
+    background-position: center 0;
+  }
   .logo-text {
     font-size: 1rem;
   }
@@ -33,19 +69,9 @@ body {
   }
 }
 
-/* Hero Image */
-#hero {
-  max-height: 100vh;
-  width: 100%;
-}
-
-#hero img {
-  width: 100%;
-}
-
 /* Buttons */
 .btn-red {
-  background-color: #b22222;
+  background-color: var(--accent-color);
   color: white;
   font-weight: bold;
   padding: 0.6rem 1.5rem;
@@ -56,7 +82,7 @@ body {
 }
 
 .btn-red:hover {
-  border: 1px solid #b22222;
+  border: 1px solid var(--accent-color);
 }
 
 .btn-white {
@@ -94,6 +120,7 @@ body {
 .navbar {
   position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 
 .navbar-toggler {
@@ -113,7 +140,7 @@ body {
 
 .welcome {
   padding: 3rem 15%;
-  background: #fff;
+  background: #ffff;
 }
 
 .welcome img {
@@ -121,7 +148,7 @@ body {
 }
 
 .welcome .p-red {
-  color: #b22222;
+  color: var(--accent-color);
 }
 
 .welcome .p-blue {
@@ -275,7 +302,7 @@ footer h5 {
 
 .footer ul li a {
   font-size: 0.9rem;
-  color: #b22222;
+  color: var(--accent-color);
 }
 
 .row.far-apart {
@@ -301,4 +328,20 @@ footer p {
 footer ul.iconsbrand li a i {
   color: #1e3265;
   font-size: 1.2rem;
+}
+
+.banner ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.banner ul li a {
+  color: #ffff;
+}
+
+.banner h3 {
+  font-size: 3rem;
+  text-align: center;
 }
