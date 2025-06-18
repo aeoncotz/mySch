@@ -338,8 +338,8 @@ footer ul.iconsbrand li a i {
 .banner {
   height: 100%;
   width: 100%;
-  backdrop-filter: brightness(80%);
-  padding-top: 4rem;
+  backdrop-filter: brightness(60%);
+  padding-top: 22%;
 }
 
 .banner ul {
@@ -394,8 +394,29 @@ footer ul.iconsbrand li a i {
   line-height: 1.7;
 }
 
+.spoiler-dicription ul li {
+  color: #1e3265;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.spoiler-dicription h3 {
+  color: #1e3265;
+  font-size: 2rem;
+  padding: 1.7rem 0;
+  font-weight: 300;
+}
+
+.spoiler-dicription a {
+  color: #b22222;
+}
+
 .spoiler-dicription span {
   font-size: 1.2rem;
+}
+
+.border-curve {
+  border-radius: 30px;
 }
 
 .spoiler-dicription img {
@@ -409,8 +430,61 @@ footer ul.iconsbrand li a i {
 }
 
 .hero.our-story {
-  background: url(../imgs/Havenstraat-HDR_retouch-1024x768.jpg);
+  background: url(../imgs/Our-Story-1024x576.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.easy-navigation {
+  padding: 2rem 12%;
+  background: #ffff;
+}
+
+.easy-navigation .block-nav {
+  aspect-ratio: 1/1;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.easy-navigation .block-nav .image {
+  width: 100%;
+  height: 100%;
+  background: url(../imgs/Our-Story-1024x576.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.easy-navigation .block-nav a {
+  height: 100%;
+  width: 100%;
+  background: none;
+  backdrop-filter: brightness(60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.easy-navigation .block-nav a:hover {
+  background: rgba(128, 128, 128, 0.534);
+}
+
+.easy-navigation .block-nav a span {
+  font-size: 2rem;
+}
+
+@media (max-width: 576px) {
+  .easy-navigation {
+    padding: 2rem 1rem;
+  }
 }
