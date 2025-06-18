@@ -128,6 +128,11 @@ body {
   z-index: 1000;
 }
 
+.navbar span {
+  color: #1e3265;
+  font-size: 1.5rem;
+}
+
 .navbar-toggler {
   border: none;
 }
