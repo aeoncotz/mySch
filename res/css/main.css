@@ -32,6 +32,11 @@ body {
   height: 3rem;
 }
 
+.form-select {
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -330,6 +335,13 @@ footer ul.iconsbrand li a i {
   font-size: 1.2rem;
 }
 
+.banner {
+  height: 100%;
+  width: 100%;
+  backdrop-filter: brightness(80%);
+  padding-top: 4rem;
+}
+
 .banner ul {
   display: flex;
   align-items: center;
@@ -344,4 +356,61 @@ footer ul.iconsbrand li a i {
 .banner h3 {
   font-size: 3rem;
   text-align: center;
+}
+
+.spoiler-text {
+  padding: 5rem 0;
+  background: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spoiler-text p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 10px;
+  color: #1e3265;
+  max-width: 1000px;
+}
+
+.spoiler-dicription {
+  padding: 2rem 12%;
+  background: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.spoiler-dicription p,
+.spoiler-dicription span {
+  color: #1e3265;
+}
+
+.spoiler-dicription p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.spoiler-dicription span {
+  font-size: 1.2rem;
+}
+
+.spoiler-dicription img {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .spoiler-dicription {
+    padding: 2rem 1rem;
+  }
+}
+
+.hero.our-story {
+  background: url(../imgs/Havenstraat-HDR_retouch-1024x768.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
