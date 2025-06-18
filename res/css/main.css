@@ -43,7 +43,7 @@ body {
   justify-content: center;
   width: 100%;
   aspect-ratio: 16/7;
-  background: url(../imgs/background.jpg);
+  background: url(../imgs/upload/dummy_1620x1080_ffffff_cccccc.png);
   background-position: center -4rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,23 +239,23 @@ body {
 }
 
 .recent-acctivies .activity-1 {
-  background: url(../imgs/activity-1.jpg);
+  background: url(../imgs/upload/dummy_700x700_ffffff_cccccc.png);
 }
 
 .recent-acctivies .activity-2 {
-  background: url(../imgs/activity-2.jpg);
+  background: url(../imgs/upload/dummy_700x700_ffffff_cccccc.png);
 }
 
 .recent-acctivies .activity-2 {
-  background: url(../imgs/activity-2.jpg);
+  background: url(../imgs/upload/dummy_700x700_ffffff_cccccc.png);
 }
 
 .recent-acctivies .activity-3 {
-  background: url(../imgs/activity-3.jpg);
+  background: url(../imgs/upload/dummy_700x700_ffffff_cccccc.png);
 }
 
 .recent-acctivies .activity-4 {
-  background: url(../imgs/activity-4.jpg);
+  background: url(../imgs/upload/dummy_700x700_ffffff_cccccc.png);
 }
 
 .container-activities .heading-text {
@@ -435,7 +435,7 @@ footer ul.iconsbrand li a i {
 }
 
 .hero.our-story {
-  background: url(../imgs/Our-Story-1024x576.jpg);
+  background: url(../imgs/upload/dummy_1620x1080_ffffff_cccccc.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -458,7 +458,7 @@ footer ul.iconsbrand li a i {
 .easy-navigation .block-nav .image {
   width: 100%;
   height: 100%;
-  background: url(../imgs/Our-Story-1024x576.jpg);
+  background: url(../imgs/upload/dummy_700x700_ffffff_cccccc.png);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
